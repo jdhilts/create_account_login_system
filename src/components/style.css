@@ -30,8 +30,8 @@ input[type=text], input[type=email], input[type=password] {
 }
 
 button {
-	background-color: rgba(216, 254, 218, 0.8);
-	border-color: rgba(137, 255, 143, 0.82);
+	background-color: rgba(169, 223, 255, 1);
+	border-color: rgba(207, 237, 255, 1);
 	/*border-style: none;*/
 	width: 320px;
 	height: 45px;
@@ -62,4 +62,8 @@ button {
 	border-style: solid;
 	border-color: black;
 	border-width:  2px;
+}
+.error {
+	font-family: Raleway, sans-serif;
+	color: red;
 }

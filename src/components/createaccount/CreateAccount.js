@@ -41,7 +41,7 @@ const CreateAccount =(props)=> {
 				navigate('/login')
 				window.location.reload(true)
 			} else {
-				setError('Their is already an account with that email address.')				
+				setError('Their is already an account with that email.')				
 			}})
 		.catch(console.log)
 	}
