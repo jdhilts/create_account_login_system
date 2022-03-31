@@ -1,8 +1,8 @@
+import IndexRoutes from './components/IndexRoutes'
 
-
-const App =()=> {
+const App =(props)=> {
   return (
-    null
+    <IndexRoutes/>
   )
 }
 

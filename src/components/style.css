@@ -1,0 +1,65 @@
+.page_body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+
+input[type=text], input[type=email], input[type=password]:focus {
+	outline: none;  
+}
+
+input[type=text], input[type=email], input[type=password] {
+	border-top: 1px;
+	border-right-style: none;
+	border-left-style: none;
+	border-radius: 0px;
+	width: 320px;
+	height:  45px;
+	padding: 0px;
+	margin-left: 0px; 
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+}
+
+.create_account_header {
+	width: 320px;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+}
+
+button {
+	background-color: rgba(216, 254, 218, 0.8);
+	border-color: rgba(137, 255, 143, 0.82);
+	/*border-style: none;*/
+	width: 320px;
+	height: 45px;
+	padding: 0px;
+	margin-top: 35px;
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+}
+
+.login_forgot_password {
+	width: 320px;
+	height: 45px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.link {
+	font-family: Raleway, sans-serif;
+	font-size: 16px;
+	margin-right: 20px;
+	color: black;
+}
+
+.create_account_container {
+	margin: 0px;
+	padding: 20px;
+	width: 320px;
+	border-style: solid;
+	border-color: black;
+	border-width:  2px;
+}
