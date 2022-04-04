@@ -30,9 +30,8 @@ input[type=text], input[type=email], input[type=password] {
 }
 
 button {
-	background-color: rgba(169, 223, 255, 1);
-	border-color: rgba(207, 237, 255, 1);
-	/*border-style: none;*/
+	background-color: rgba(124, 166, 249, 0.19);
+	border-color: rgba(124, 166, 249, 0.08);
 	width: 320px;
 	height: 45px;
 	padding: 0px;
@@ -56,7 +55,7 @@ button {
 }
 
 .create_account_container {
-	margin: 0px;
+	margin-top: 150px;
 	padding: 20px;
 	width: 320px;
 	border-style: solid;
