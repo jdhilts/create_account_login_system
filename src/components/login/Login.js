@@ -1,4 +1,5 @@
 import {Link} from '@reach/router'
+import '../style'
 
 const Login =(props)=> {
 	return(
