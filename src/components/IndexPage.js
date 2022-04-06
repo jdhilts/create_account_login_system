@@ -1,5 +1,5 @@
 import {Link} from '@reach/router'
-import '../style.css'
+import './style.css'
 
 const IndexPage =(props)=> {
 	return(
