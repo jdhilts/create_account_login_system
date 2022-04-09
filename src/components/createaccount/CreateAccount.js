@@ -38,7 +38,7 @@ const CreateAccount =(props)=> {
 	//Fetch the create_account controller from api to insert user.
 	const onSubmit =(values, {resetForm})=> {
 		resetForm({})
-		fetch('http://localhost:3000/create_account', {
+		fetch('https://damp-journey-68886.herokuapp.com/create_account', {
 			method: 'POST',
 			cache: 'no-cache',
 			headers:{
